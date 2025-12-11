@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.card-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 22rem;
+    width: 15rem;
+    background-color: rgb(197, 202, 203);
+    border-radius: 0.8rem;
+    margin: 1rem;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-top {
+    height: 8rem;
+    width: 100%;
+}
+
+img {
+    height: 8rem;
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.card-center {
+    margin-top: 1rem;
+}
+
+.card-center h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.card-center p {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.card-bottom {
+    height: 7rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn1, .btn2 {
+    height: 1.5rem;
+    width: 5rem;
+    display: inline-block;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1 {
+     background-color: rgb(54, 166, 226);
+     color: white; 
+}
+
+.btn2 {
+    background-color: transparent;
+    color: rgb(54, 166, 226);
+    border: 1px solid rgb(54, 166, 226);
+}
+
+.dis {
+    display: none;
+}
